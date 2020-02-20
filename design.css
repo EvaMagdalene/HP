@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+    font-weight: 400;
+    src: url(Poppins-Bold.ttf);
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a { 
+    display: block;
+    padding: 8px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    height 200px;
+    justify-content: center;;
+}
+
+.mainNav {
+    display: flex;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    padding-right: 50px;
+    width: 200px;
+  }
+
+.input-group {
+    display: inline;
+    position: relative;
+  }
+
+.contactus {
+    background-color: #A174DB;
+    width: 120px;
+    height: 40px; 
+    border-radius: 10px   
+}
+
+.primary {
+    background-color: #A174DB;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;    
+}
+
+.secondary {
+    background-color: #49BE55;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.welcome {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+} 
+
+.item {
+    width: 500px;
+    padding: 20px
+}
+ 
+.item4{
+    width: 500px;
+}
